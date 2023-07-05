@@ -109,7 +109,7 @@ export const CreatePost = () => {
             LabelName="Prompt"
             type="text"
             name="prompt"
-            placeholder="Click on surprise me button to generate a prompt"
+            placeholder="Click on surprise me button to generate a prompt or type your prompt"
             value={form.prompt}
             handleChange={handleChange}
             isSurpriseMe
