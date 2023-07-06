@@ -11,8 +11,8 @@ const App = () => {
             <img src={logo} alt="ai image generation" className="w-20 object-contain"/>
           </Link>
           <div className="flex gap-10 items-center">
-            <Link to="/about" className="font-inter rounded-full font-medium bg-[#2e548e] px-3 py-2 text-white hover:bg-[#fff] hover:text-[#2e548e] hover:border-2 hover:ease-in hover:duration-200 hover:border-[#2e548e]">About</Link>
-            <Link to="/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md">Create</Link>
+            <Link to="/about" className="font-inter rounded-md font-medium border-2 border-[#030303] shadow-lg px-2 py-1 hover:bg-[#fff] hover:text-[#2e548e] hover:border-2 hover:ease-in hover:duration-200 hover:border-[#2e548e]">About</Link>
+            <Link to="/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md shadow-lg">Create</Link>
           </div>
         </header>
         <main className="sm:p-8 px-4 py-8 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]">
